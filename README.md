@@ -159,7 +159,7 @@ The dataset (`saas_funnel_data.csv`) is synthetic and contains the following col
 ## 🙋‍♂️ Author
 
 **Mohammed Shafiulla**
-BCA Data Science · Aditya Degree College, Visakhapatnam
+
 
 [![GitHub](https://img.shields.io/badge/GitHub-Follow-black?style=flat&logo=github)](https://github.com/mdshafi-786)
 
