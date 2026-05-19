@@ -1,0 +1,90 @@
+# ── Data Files ──────────────────────────────────────────────
+*.csv
+!Dataset/saas_funnel_data.csv
+*.xlsx
+*.xls
+*.json
+*.parquet
+*.db
+*.sqlite
+data/raw/
+data/processed/
+
+# ── Python ──────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtual Environments ─────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ── Environment Variables ────────────────────────────────────
+.env
+.env.local
+.env.*.local
+*.env
+
+# ── Streamlit ────────────────────────────────────────────────
+.streamlit/secrets.toml
+
+# ── Jupyter Notebooks ────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ── IDE & Editors ────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.code-workspace
+
+# ── OS Files ─────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── Logs & Temp ──────────────────────────────────────────────
+*.log
+*.tmp
+*.temp
+logs/
+temp/
+
+# ── Build / Distribution ─────────────────────────────────────
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+site/
+
+# ── Testing ──────────────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ── Plotly / Matplotlib cache ────────────────────────────────
+.plotly/
+
+# ── Model Files (if you add ML later) ────────────────────────
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.pth
+*.joblib
+models/
