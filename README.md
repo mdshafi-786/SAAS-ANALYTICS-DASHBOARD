@@ -118,7 +118,8 @@ python quick_eda.py
 
 ### 6. Launch the dashboard
 ```bash
-streamlit run app.py
+streamlit run app.py --server.port 8505
+
 ```
 
 ---
